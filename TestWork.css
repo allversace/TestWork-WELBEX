@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+/* сброс стилей по умолчанию */
+body,h1,h2,h3,p,ul,li {
+    margin: 0;
+}
+
+.red--light {
+    width: 311px;
+    height: 311px;
+    flex-shrink: 0;
+    border-radius: 311px;
+    opacity: 0.5;
+    background: #961A1A;
+    filter: blur(196px);
+}
+
+.purple-light {
+    width: 259px;
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    opacity: 0.5;
+    background: #833AB4;
+    filter: blur(196px);
+}
+
+.red--ball--small {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+    fill: radial-gradient(82.3% 82.3% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.25) 59.67%, rgba(167, 49, 49, 0.26) 78.59%, rgba(130, 25, 25, 0.23) 100%);
+    filter: drop-shadow(3px 6px 27px rgba(223, 125, 125, 0.25)) blur(2.5px);
+    backdrop-filter: blur(2px);
+}
