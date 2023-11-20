@@ -1,15 +1,20 @@
 * {
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
 }
 
 /* сброс стилей по умолчанию */
 body,h1,h2,h3,p,ul,li {
     margin: 0;
+    width: 1440px;
+    background: #0E1014;
 }
 
-.red--light {
+.red-light {
     width: 311px;
     height: 311px;
+    margin: 251px 418px 0 -102px;
     flex-shrink: 0;
     border-radius: 311px;
     opacity: 0.5;
@@ -19,15 +24,19 @@ body,h1,h2,h3,p,ul,li {
 
 .purple-light {
     width: 259px;
+    position: absolute;
+    top: 0;
+    left: 50%;
     height: 259px;
     flex-shrink: 0;
+    transform: translate(-50%, -50%);
     border-radius: 259px;
     opacity: 0.5;
     background: #833AB4;
     filter: blur(196px);
 }
 
-.red--ball--small {
+.red-ball-small {
     width: 28px;
     height: 28px;
     flex-shrink: 0;
